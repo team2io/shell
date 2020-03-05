@@ -74,7 +74,7 @@ echo echo "#tar " ${_FILENAME}
 tar -zcf ~/${_FILENAME} /homedata
 rm -rf /homedata/*
 mv ~/${_FILENAME} /homedata
-#chown sedisk.sedisk /homedata/${_FILENAME}
+
 
 echo ""
 echo "###EN Time : `date '+%Y-%m-%d'` `date '+%H:%M:%S'`"
